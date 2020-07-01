@@ -1,0 +1,385 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>S.C Terminal de Despacho</title>
+    <meta name="description" content="Ela Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
+    <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
+
+</head>
+
+<body>
+    <!-- Left Panel -->
+    <!-- Left Panel -->
+
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+            <br />
+            <br />
+            <br />
+
+
+
+
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                     
+                  
+
+                    <li class="menu-title">Panel Principal</li><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+
+                        <!--Borrar estilos 
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Disponible</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Boton Disponible</a></li>
+                                
+                            </ul>
+                        Borrar estilos css-->
+
+
+
+                    </li>
+                    <li class="menu-item-has-children active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Despachos</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="Gestion-Despacho.html">Gestionar Despachos </a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Historial de envios</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            
+
+
+                        </ul>
+                    </li>
+
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-map-o"> </i>Direccion</a>
+                        <ul class="sub-menu children dropdown-menu">
+
+
+                            <li><i class="menu-icon fa fa-map-o"></i><a href="mapa.html">Google Maps</a></li>
+
+                            <!--<li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>-->
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
+
+    <!-- Right Panel -->
+
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <header id="header" class="header">
+            <div class="top-left">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="./"><img src="imagenes/Envio.png" alt="Logo"    ></a>
+                    <a class="navbar-brand hidden" href="./"><img src="imagenes/Envio.png" alt="Logo"></a>
+                    <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+            <div class="top-right">
+                <div class="header-menu">
+                    <div class="header-left">
+
+
+
+
+
+
+                        <div class="dropdown for-message">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="message"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-envelope"></i>
+                                <span class="count bg-primary"></span>
+                                
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="message">
+                                
+                                <a class="dropdown-item media" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                                    <span class="photo media-left"><img alt="avatar" src="imagenes/gmail.png"></span>
+                                    <div class="message media-body">
+                                        <span class="name float-left">Gmail</span>
+                                        
+                                    </div>
+                                </a>
+                                <a class="dropdown-item media" href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1591508980&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3dbb3947dc-4610-a028-481f-faffc430b4a6&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">
+                                    <span class="photo media-left"><img alt="avatar" src="imagenes/outlook.jpg"></span>
+                                    <div class="message media-body">
+                                        <span class="name float-left">Outlook</span>
+                                        
+                                    </div>
+                                </a>
+                                <a class="dropdown-item media" href="https://login.yahoo.com/config/login?.src=fpctx&.intl=e1&.lang=es-US&.done=https://espanol.yahoo.com ">
+                                    <span class="photo media-left"><img alt="avatar" src="imagenes/yahoo.png"></span>
+                                    <div class="message media-body">
+                                        
+                                        <p>Yahoo</p>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item media" href="https://ssoprd.duoc.cl/auth/realms/WEB_APPS_PRD/protocol/openid-connect/auth?client_id=411f013c&nonce=478fd98899982560d93588527f22895e&redirect_uri=https%3A%2F%2Fexperienciavivo.duoc.cl%2Fauth%2Fopenidc%2Fcallback&response_type=code&scope=openid&state=40c84005a94b35133dddd082aee3aa6f">
+                                    <span class="photo media-left"><img alt="avatar" src="imagenes/vivoduoc.jpg"></span>
+                                    <div class="message media-body">
+                                       
+                                        <p>Vivo Duoc</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="user-area dropdown float-right">
+
+                        <div class="row">
+                            <div class="col text-center">
+                                <!---boton ingresar href enlaza a la otra pagina y se llama la clase padre btn --->
+                                <a href="login.html" class="btn btn-primary" type="submit">Cerrar sesion</a>
+
+
+
+
+                            </div>
+                        </div>
+
+
+                     
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </header><!-- /header -->
+        <!-- Header-->
+
+        
+
+
+        <div class="content">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <!--tabla central de busquedas-->
+                                <strong class="card-title">Historial de Envios</strong>
+
+                            </div>
+                            <div class="card-body">
+                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                 
+                                    <thead>
+                                        <tr>
+                                            <th>ID Boleta</th>
+                                            <th>Nombre cliente</th>
+                                            <th>Direccion</th>
+                                            <th>Fecha</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0033300</td>
+                                            <td>Daniela</td>
+                                            <td>La serena</td>
+                                            <td>01/05/2020</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td>0003322</td>
+                                            <td>Rene garrido</td>
+                                            <td>Copiapo</td>
+                                            <td>01/05/2020</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>0034566</td>
+                                            <td>Esteban garrido</td>
+                                            <td>Calama</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1234567</td>
+                                            <td>Patricio solar</td>
+                                            <td>Calama</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7654321</td>
+                                            <td>Manuel osandon</td>
+                                            <td>iquique</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3214567</td>
+                                            <td>Maria gonzales</td>
+                                            <td>Rancagua</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5554443</td>
+                                            <td>Diego gonzales</td>
+                                            <td>Santiago</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8889990</td>
+                                            <td>Sergio Fuentes</td>
+                                            <td>Quillota</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7658904</td>
+                                            <td>Sergio garcia</td>
+                                            <td>Villa alemana</td>
+                                            <td>01/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5436789</td>
+                                            <td>Rafael Torres</td>
+                                            <td>Valparaiso</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9807654</td>
+                                            <td>Carlos fuentes</td>
+                                            <td>Santiago</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1234789</td>
+                                            <td>Maria urdemales</td>
+                                            <td>Villa alemana</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0000453</td>
+                                            <td>Veronica quezada</td>
+                                            <td>Rancagua</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1112227</td>
+                                            <td>Cesar Canales</td>
+                                            <td>Curauma</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4443337</td>
+                                            <td>Santiago Allende</td>
+                                            <td>Viña del mar</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9000887</td>
+                                            <td>Jose larrondo</td>
+                                            <td>Quilpue</td>
+                                            <td>05/05/2020</td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div><!-- .animated -->
+        </div><!-- .content -->
+
+
+        <div class="clearfix"></div>
+
+        <footer class="site-footer">
+            <div class="footer-inner bg-white">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Copyright &copy; 2020 S.G Despachos
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- /#right-panel -->
+
+    <!-- Right Panel -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="assets/js/lib/data-table/datatables.min.js"></script>
+    <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+    <script src="assets/js/lib/data-table/jszip.min.js"></script>
+    <script src="assets/js/lib/data-table/vfs_fonts.js"></script>
+    <script src="assets/js/lib/data-table/buttons.html5.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
+    <script src="assets/js/init/datatables-init.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#bootstrap-data-table-export').DataTable();
+        });
+    </script>
+
+
+</body>
+
+</html>
